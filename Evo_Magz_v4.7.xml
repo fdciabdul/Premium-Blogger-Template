@@ -18,24 +18,24 @@
 <link href='https://evomagzblog.blogspot.com/feeds/posts/default?alt=rss' rel='alternate' title='Evo Magz Blog - RSS' type='application/rss+xml'/>
 <link href='https://www.blogger.com/feeds/1863745613123004613/posts/default' rel='service.post' title='Evo Magz Blog - Atom' type='application/atom+xml'/>
 <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
-<link href='https://evomagzblog.blogspot.com/' rel='openid.delegate'/>
+<link href='/' rel='openid.delegate'/>
 <!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/4111605327-ieretrofit.js"></script>
 <![endif]-->
 <meta content='Evo Magz magazine blogger template. Template blogspot paling keren sepanjang masa' name='description'/>
-<meta content='https://riankiyuko1.blogspot.com/' property='og:url'/>
+<meta content='/' property='og:url'/>
 <meta content='Belajar Vektor' property='og:title'/>
 <meta content='Evo Magz magazine blogger template. Template blogspot paling keren sepanjang masa' property='og:description'/>
 <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
 
 <!-- Judul Blogger dioptimalkan -->
-<title>Evo Magz v4.7</title>
+<title>Evo Magz </title>
 <!-- Meta keywords otomatis halaman depan, statis, dan postingan -->
 <meta content='Belajar vektor' name='keywords'/>
 
 <meta content='Belajar Vektor Bagi Pemula,Vektor Art, Cara Membuat Blog Di Blogger, Template Blogger SEO Friendly, SEO Onpage, SEO Offpage, Backlink, Ping, Konten Berkualitas, Blog Terkenal, Cara Jadi Nomor Satu Di Google, Banyak Trafik Pengunjung, Membuat Template Blogger' name='keywords'/>
 <meta content='Blog Personal tentang tips Blogging, Optimasi SEO, Sosial Media, Tips Internet dan Belajar Blog' name='description'/>
 <meta content='Indonesia' name='geo.placename'/>
-<meta content='Rian seo' name='Author'/>
+<meta content='Pace Uaa' name='Author'/>
 <meta content='general' name='rating'/>
 <meta content='Indonesia' name='geo.country'/>
 
@@ -54,14 +54,14 @@
 <b:skin><![CDATA[/*
 -----------------------------------------------
 Blogger Template Style
-Name:     Evo Magz v4.7 Template
-Designer: Mas Sugeng
-URL:      http://sugeng.id
+Name:     Evo Magz  Template
+Designer: Pace Usa Offical
+URL:      http://mrlinkerrorsystem.blogspot.com
+Note : Jangan Di Recode Pig 
 
 Thanks to :
 
 - http://www.blogger.com
-- http://www.dte.web.id
 - http://fortawesome.github.io/Font-Awesome/
 - https://github.com/tessalt/dropdowns
 - https://github.com/matthewhall/matt-tabs
@@ -2420,11 +2420,11 @@ head.appendChild(script);
 		  
 		  <!-- social media button start -->
 		  <ul class='nav-social'>
-			  <li><a class='fcb' href='https://www.facebook.com/evotemplatesnet' rel='nofollow'><i class='fa fa-facebook-square fa-2x'/></a>
+			  <li><a class='fcb' href='https://www.facebook.com/cicicyber.squadindo.9' rel='nofollow'><i class='fa fa-facebook-square fa-2x'/></a>
 			  </li>  
-			  <li><a class='gpl' href='https://plus.google.com/+SugengRiyadi' rel='nofollow'><i class='fa fa-google-plus-square fa-2x'/></a>
+			  <li><a class='gpl' href='https://t.me/cardingtutorialfreeindonesia' rel='nofollow'><i class='fa fa-telegram-square fa-2x'/></a>
 			  </li>
-			  <li><a class='twt' href='https://twitter.com/blogmassugeng' rel='nofollow'><i class='fa fa-twitter-square fa-2x'/></a> 
+			  <li><a class='twt' href='https://twitter.com/' rel='nofollow'><i class='fa fa-twitter-square fa-2x'/></a> 
 			  </li>
 			  <li><a class='ytb' href='https://www.youtube.com' rel='nofollow'><i class='fa fa-youtube fa-2x'/></a> 
 			  </li>
@@ -3443,7 +3443,7 @@ head.appendChild(script);
 <img itemprop='image' src='https://lh3.googleusercontent.com/-gRl42FkNWTg/AAAAAAAAAAI/AAAAAAAAAWM/igLCxGwfiME/s60-p-rw-no/photo.jpg'/>
 <div>
 <a class='g-profile' href='https://plus.google.com/u/0/112134934109438390258'>
-<span itemprop='name'>Rian SEO</span>
+<span itemprop='name'> Pace Usa Gans </span>
 </a>
 </div>
 <span itemprop='description'>Blogger yang senang mempelajari hal-hal baru seputar Blog, SEO dan Bisnis Online.</span>
@@ -4249,7 +4249,7 @@ head.appendChild(script);
   <!-- footer wrapper start -->
   <footer id='footer-wrapper'>
 	<div class='footer-left'>
-		Copyright &#169; 2018 <a expr:href='data:blog.homepageUrl' rel='copyright'><data:blog.title/></a>
+		Copyright &#169; 2020 <a expr:href='data:blog.homepageUrl' rel='copyright'><data:blog.title/></a>
 	</div>
 	<div class='footer-right'>
 		Powered by <a href='http://www.blogger.com/' title='Blogger'>Blogger.com</a>

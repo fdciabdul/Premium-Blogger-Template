@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<HTML>
+&lt;head&gt;
+
+<meta charset='utf-8'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link expr:href='data:blog.url' rel='canonical'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<title><data:blog.pageName/> - <data:blog.title/></title>
+</b:if></b:if>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<title>Page Not Found - <data:blog.title/></title>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<meta content='noindex' name='robots'/>
+</b:if>
+<b:if cond='data:blog.searchLabel'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.isMobile'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<script type='application/ld+json'>{ &quot;@context&quot;: &quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;<data:blog.homepageUrl/>?q={search_term}&quot;, &quot;query-input&quot;: &quot;required name=search_term&quot; } }</script>
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+</b:if></b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta content='DESKRIPSI-BLOG' name='keywords'/></b:if>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+</b:if></b:if>
+<link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://plus.google.com/USER-GOOGLE-PLUS/posts' rel='publisher'/>
+<link href='https://plus.google.com/USER-GOOGLE-PLUS/about' rel='author'/>
+<link href='https://plus.google.com/USER-GOOGLE-PLUS' rel='me'/>
+<meta content='KODE-VALIDASI-GOOGLE-WEBMASTER' name='google-site-verification'/>
+<meta content='KODE-VALIDASI-BING-WEBMASTER' name='msvalidate.01'/>
+<meta content='Indonesia' name='geo.placename'/>
+<meta content='NAMA-ADMIN' name='Author'/>
+<meta content='general' name='rating'/>
+<meta content='id' name='geo.country'/>
+<!-- [ Social Media Meta Tag ] -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<meta content='article' property='og:type'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<meta expr:content='data:blog.title' property='og:title'/>
+<meta content='website' property='og:type'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+<b:else/>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+</b:if>
+</b:if>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+<b:else/>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+<b:else/>
+<meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+</b:if>
+</b:if>
+<meta content='https://www.facebook.com/PROFIL-FACEBOOK' property='article:author'/>
+<meta content='https://www.facebook.com/FAN-PAGE-FACEBOOK' property='article:publisher'/>
+<meta content='KODE-APLIKASI-FACEBOOK' property='fb:app_id'/>
+<meta content='KODE-ADMIN-FACEBOOK' property='fb:admins'/>
+<meta content='en_US' property='og:locale'/>
+<meta content='en_GB' property='og:locale:alternate'/>
+<meta content='id_ID' property='og:locale:alternate'/>
+<meta content='summary' name='twitter:card'/>
+<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+<meta content='USER-TWITTER' name='twitter:site'/>
+<meta content='USER-TWITTER' name='twitter:creator'/>
+<meta content='summary_large_image' name='twitter:card'/>
+
+&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[
+]]></b:skin>
+
+  <style type="text/css">
+    .blog-pager > a{
+      color: white;
+    }
+  </style>
+
+<!-- Compiled and minified CSS -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"/>
+<!-- Compiled and minified JavaScript -->
+
+<!--
+Nama Template : ghostheme-blogspot
+Pembuat : Arian Saputra
+Site : ariansaputra.com
+tools : materializecss.com
+
+-->
+
+
+&lt;!--<head/>--&gt;
+<body onload="myFunction()">
+  
+        
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">PHP</a></li>
+  <li><a href="#!">JAVA</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">JAVASCRIPT</a></li>
+</ul>
+ <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <a expr:href='data:blog.homepageUrl' class="brand-logo" style="font-size: 1.5em;"><data:blog.title/></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Programan<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#test1">PHP</a></li>
+        <li class="tab"><a href="#test2">JAVA</a></li>
+        <li class="tab"><a href="#test3">JAVASCRIPT</a></li>
+        <li class="tab"><a href="#test4">PYTHON</a></li>
+      </ul>
+    </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">JavaScript</a></li>
+  </ul>
+ </nav>
+ <div class="progress" style="margin:0; padding:0" id="loader">
+      <div class="indeterminate"></div>
+  </div>
+
+  <div style="display:none;" id="konten">
+  <div id="test1">
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center teal-text text-lighten-2">PHP</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="https://muer-komputer.blogspot.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Mulai Belajar PHP</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="test2">
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">JAVA</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="https://muer-komputer.blogspot.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Mulai Belajar JAVA</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="test3">
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">JAVASCRIPT</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="https://muer-komputer.blogspot.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Mulai Belajar JAVASCRIPT</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="test4">
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">PYTHON</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="https://muer-komputer.blogspot.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Mulai Belajar PYTHON</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+      <div class="row">
+        <div class="col s12 m4 l9">
+			<b:section id='main'>
+			  <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog'>
+			  	<b:widget-settings>
+			  		<b:widget-setting name='showDateHeader'>true</b:widget-setting>
+			  	</b:widget-settings>
+
+				  <b:includable id='post' var='post'>
+				  <a expr:href='data:post.url'><h2 style='font-size: 1.5em;' class="white-text"><data:post.title/></h2></a>
+				    <div>
+				    	Tanggal : <data:post.dateHeader/> Jam : <data:post.timestamp/><br/>
+				    	<hr style="width:50%; float:left"/><br/>
+					</div>
+				  <p>
+            <b:if cond='data:blog.pageType != &quot;static_page&quot; and data:blog.pageType != &quot;item&quot;'>
+              <div class='list_postnyabro'>
+                <data:post.body/>sss
+              </div>
+            <b:else/>
+              <data:post.body/>
+            </b:if>
+          </p>
+				  </b:includable>
+
+         <b:includable id='main' var='top'>
+           <div>
+             <b:loop values='data:posts' var='post'><!-- Start Post Loop -->
+               <div class='post-outer'>
+                  <div class="row">
+                    <div class="col s12 m12">
+                      <div class="card-panel teal">
+                        <span class="white-text">
+                          <b:include data='post' name='post'/><!-- data post -->
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <b:if cond='data:blog.pageType == &quot;item&quot;'><!-- jika halaman post -->
+                    <b:include data='post' name='comment_picker'/><!-- tampilankan komen -->
+                  </b:if>
+                </div>
+             </b:loop>
+           </div>
+           <button class="waves-effect waves-light btn"><b:include name='nextprev'/></button>
+         </b:includable>
+
+			  </b:widget>
+			</b:section>
+        </div>
+        <div class="col s12 m4 l3 right">
+		 <ul class="collection">
+		    <li class="collection-item avatar">
+		      <span class="title">Title</span>
+		      <p>First Line
+		         Second Line
+		      </p>
+		      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+		    </li>
+		    <li class="collection-item avatar">
+		      <i class="material-icons circle">folder</i>
+		      <span class="title">Title</span>
+		      <p>First Line
+		         Second Line
+		      </p>
+		      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+		    </li>
+		    <li class="collection-item avatar">
+		      <i class="material-icons circle green">insert_chart</i>
+		      <span class="title">Title</span>
+		      <p>First Line
+		         Second Line
+		      </p>
+		      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+		    </li>
+		    <li class="collection-item avatar">
+		      <i class="material-icons circle red">play_arrow</i>
+		      <span class="title">Title</span>
+		      <p><br>First Line </br>
+		         Second Line
+		      </p>
+		      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+		    </li>
+		  </ul>
+        </div>
+      </div>
+
+  <hr style="width: 90%"/>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+    	<b:section id='footer' showaddelement='yes'></b:section>
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="https://muer-komputer.blogspot.com">Arian Saputra</a>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(".dropdown-trigger").dropdown();
+
+	$(document).ready(function(){
+	   $('.sidenav').sidenav();
+	});
+
+	$(document).ready(function(){
+	  $('ul.tabs').tabs();
+	});
+
+	$(document).ready(function(){
+    	$('.collapsible').collapsible();
+  	});
+
+  	var myVar;
+
+	function myFunction() {
+	    myVar = setTimeout(showPage, 1000);
+	}
+
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("konten").style.display = "block";
+	}
+
+  $('.list_postnyabro').each(function(){var txt=$(this).text().substr(0,240);var j=txt.lastIndexOf(' ');if(j>42)$(this).text(txt.substr(0,j).replace(/[?,!\.-:;]*$/,'...'));});
+	        
+  </script>
+  <b:include data='blog' name='google-analytics'/>
+&lt;!--</body>--&gt;
+</HTML>
